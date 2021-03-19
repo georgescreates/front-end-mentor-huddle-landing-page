@@ -26,10 +26,6 @@ body
 {
     display: block;
 
-    width: 100%;
-    height: auto;
-    min-height: 100vh;
-
     position: relative;
 }
 
@@ -410,5 +406,13 @@ footer
     #nav-bar svg
     {
         width: 160px;
+    }
+}
+
+@media only screen and (max-width:321px)
+{
+    #header-text-cta-cont p
+    {
+        font-size: 15px;
     }
 }
